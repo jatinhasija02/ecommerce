@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "d624",
+      "username": "Jatin hasija",
+      "email": "hasijajatin02@gmail.com",
+      "password": "hasija02",
+      "phoneno": "8595697399",
+      "gender": "male",
+      "dob": "2001-09-01",
+      "agreement": true
+    },
+    {
+      "id": "b3d1",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "phoneno": "7896541234",
+      "gender": "male",
+      "dob": "1111-01-01",
+      "agreement": true
+    },
+    {
+      "id": "c9bc",
+      "username": "",
+      "email": "",
+      "password": "",
+      "phoneno": "",
+      "gender": "",
+      "dob": "",
+      "agreement": true
+    }
+  ]
+}

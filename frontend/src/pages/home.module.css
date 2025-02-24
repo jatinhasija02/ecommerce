@@ -1,0 +1,98 @@
+.homeContainer {
+  background-color: rgb(28, 24, 24);
+  padding: 20px;
+  color: whitesmoke;
+}
+
+/* Featured Carousel Styles */
+.featuredHeader {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.featuredCarousel {
+  margin-bottom: 30px;
+}
+
+/* Featured Card: a fixed box to display only the image */
+.featuredCard {
+  width: 250px;
+  height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px; /* added margin for spacing */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border: 1px solid #e6c200;
+  background-color: rgb(28, 24, 24);
+}
+
+.featuredImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: contain;
+  background-color: #000;
+}
+
+.noImage {
+  width: 100%;
+  height: 100%;
+  background-color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+/* Category Section Styles */
+.categorySection {
+  margin-bottom: 40px;
+}
+
+.categorySection h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Product Card for Category Carousel */
+.productCard {
+  width: 250px;
+  background-color: rgb(28, 24, 24);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  margin: 10px; /* added margin for spacing */
+  display: flex;
+  padding: 6px;
+  border: 1px solid #e6c200;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.productImage {
+  border-radius: 8px;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  background-color: #000;
+}
+
+/* New styling for product info */
+.productInfo {
+  padding: 10px;
+}
+
+.productName {
+  font-size: 16px;
+  margin: 0;
+  color: #e6c200;
+}
+
+.productPrice {
+  font-size: 14px;
+  margin: 5px 0 0;
+  color: red;
+}

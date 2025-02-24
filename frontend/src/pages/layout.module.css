@@ -1,0 +1,17 @@
+.layoutContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.header {
+  /* Optional styling for the header */
+}
+
+.mainContent {
+  flex: 1; /* Takes available space, pushing footer to the bottom */
+}
+
+.footerContainer {
+  /* Optional: styling for the footer container if needed */
+}

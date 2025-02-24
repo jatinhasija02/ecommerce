@@ -1,0 +1,63 @@
+/* Container for the entire user profile page */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: #ddd;
+}
+
+/* Header section */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Space between name, email, and address */
+  padding-bottom: 30px; /* Space before products */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Optional separator */
+}
+
+/* User details section */
+.userDetails {
+  text-align: center;
+}
+
+.userDetails h1 {
+  font-size: 28px;
+  color: #f0e68c; /* Light golden/yellowish color */
+  margin-bottom: 5px;
+}
+
+.userDetails p {
+  font-size: 16px;
+  color: #c0c0c0; /* Slightly lighter gray */
+  margin: 5px 0;
+}
+
+/* Buttons section */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Space between buttons */
+  margin-top: 10px;
+}
+
+.editButton,
+.cartButton,
+.ordersButton {
+  background-color: #e6c200; /* Old golden color */
+  color: #1a1a1a;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.editButton:hover,
+.cartButton:hover,
+.ordersButton:hover {
+  background-color: #bfa000; /* Slightly darker golden shade */
+  transform: scale(1.05);
+}

@@ -1,0 +1,86 @@
+/* Apply full height to html and body */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a; /* Ensure the entire background is set */
+}
+
+/* Footer Container and others remain the same */
+
+/* Product List Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  color: white;
+  background-color: #1a1a1a;
+  min-height: 100vh; /* This ensures the container fills the viewport height */
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #e6c200;
+  color: #1a1a1a;
+  border-radius: 5px;
+}
+
+.addButton {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 20px;
+  padding: 10px 20px;
+  background-color: #e6c200;
+  color: #1a1a1a;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+}
+
+.addButton:hover {
+  background-color: #bfa000;
+}
+
+.productTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.productTable th,
+.productTable td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: center;
+}
+
+.productTable th {
+  background-color: #333;
+  color: #e6c200;
+}
+
+.productTable tr:nth-child(even) {
+  background-color: #2b2b2b;
+}
+.manageOrdersButton {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.manageOrdersButton:hover {
+  background-color: #218838;
+}

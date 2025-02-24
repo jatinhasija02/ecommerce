@@ -1,0 +1,93 @@
+/* Container */
+.container {
+  padding: 20px;
+  min-height: calc(100vh - 70px);
+  width: 100%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #adadad;
+  background-color: #1a1a1a;
+}
+
+/* Title */
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffd700;
+}
+
+/* Form Styling */
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Labels */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Input Fields and Select */
+form input[type="text"],
+form input[type="number"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #3a3a3a;
+  border: 1px solid #444;
+  border-radius: 4px;
+  color: #fff;
+  transition: border-color 0.3s;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus,
+form select:focus {
+  border-color: #ffd700;
+  outline: none;
+}
+
+/* File Input */
+form input[type="file"] {
+  margin: 10px 0;
+}
+
+/* Button Styling */
+.form button {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 10px 0 0 0;
+  background-color: #ffd700;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form button:hover {
+  background-color: #e6c200;
+}
+
+/* Image Preview */
+.imagePreview {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.imagePreview img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid #444;
+  border-radius: 4px;
+}

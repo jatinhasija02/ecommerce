@@ -1,0 +1,101 @@
+.orderContainer {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.navHeader {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.navButton {
+  background-color: #e6c200;
+  color: #1a1a1a;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: #bfa000; /* Slightly darker golden shade */
+  transform: scale(1.05);
+}
+
+.orderTitle {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.orderGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.orderCard {
+  background-color: #2b2b2b;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.orderCard h3 {
+  margin-top: 0;
+}
+
+.orderCard p {
+  margin: 5px 0;
+}
+
+.orderButtons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.removeButton {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.removeButton:hover {
+  background-color: #c82333;
+}
+
+.buyNowButton {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.buyNowButton:hover {
+  background-color: #218838;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 50px;
+}

@@ -1,0 +1,72 @@
+/* Footer Container */
+.footer {
+  background-color: rgb(28, 24, 24);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Social Icons Section */
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+/* Individual Icons */
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: transparent;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+  border: 2px solid white;
+}
+
+.icon:hover {
+  background: white;
+  color: black;
+}
+
+/* Copyright Section */
+.copyright {
+  background-color: rgb(28, 24, 24);
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Copyright Link */
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+/* Ensure the HTML and body take full height */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Root container for your app */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures full viewport height */
+}
+
+/* Main content should take available space */
+.mainContent {
+  flex: 1;
+}

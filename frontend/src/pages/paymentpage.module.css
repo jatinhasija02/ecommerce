@@ -1,0 +1,112 @@
+.paymentContainer {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #bfa000;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.orderInfo {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 20px;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.orderInfo h2 {
+  margin-top: 0;
+  color: white;
+}
+
+.paymentForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.paymentOptions {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Increased gap for more spacing */
+  margin-bottom: 20px;
+}
+.radioLabel {
+  margin: 0 10px; /* Add horizontal margin if needed */
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.formGroup label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.formGroup input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submitButton {
+  padding: 12px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #218838;
+}
+
+.loading,
+.error {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 40px;
+  color: #333;
+}
+
+.qrContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 250px; /* Adjust width as needed */
+}
+
+.qrContainer p {
+  font-size: 1em;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+.qrImage {
+  width: 150px; /* Adjust size to fit nicely */
+  height: 150px;
+  object-fit: contain;
+  border-radius: 8px;
+}

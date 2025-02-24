@@ -1,0 +1,145 @@
+/* Container for the entire orders/cart page */
+.orderContainer {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e6c200; /* Light background */
+  color: #1a1a1a;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Navigation header at the top */
+.navHeader {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.navButton {
+  background-color: #333;
+  color: whitesmoke;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.navButton:hover {
+  background-color: #0056b3;
+}
+
+/* Title for the orders/cart section */
+.orderTitle {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Grid layout for order cards */
+.orderGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Each individual order card */
+.orderCard {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.orderCard h3 {
+  margin-top: 0;
+  color: whitesmoke;
+}
+
+.orderCard p {
+  margin: 5px 0;
+  color: whitesmoke;
+}
+
+/* Container for buttons within each order card */
+.orderButtons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Cancel (or Remove) button styling */
+.cancelButton {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.cancelButton:hover {
+  background-color: #c82333;
+}
+
+/* Buy Now button styling */
+.buyNowButton {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.buyNowButton:hover {
+  background-color: #218838;
+}
+
+/* Styling for product details (if shown inside order cards) */
+.productDetails {
+  margin-bottom: 20px;
+}
+
+.productImage {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* Styling for an order form (if applicable) */
+.orderForm {
+  margin-top: 20px;
+}
+
+.orderButton {
+  background-color: #e6c200;
+  color: #1a1a1a;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.orderButton:hover {
+  background-color: #bfa000;
+}
+
+/* Loading and error states */
+.loading,
+.error {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 40px;
+  color: #333;
+}

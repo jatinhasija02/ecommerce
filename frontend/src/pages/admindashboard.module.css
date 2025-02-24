@@ -1,0 +1,143 @@
+.container {
+  padding: 20px;
+  height: calc(100vh - 70px);
+  width: 100%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #adadad;
+  background-color: #1a1a1a;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffd700;
+}
+
+.ownerCard {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.ownerCard:hover {
+  transform: translateY(-5px);
+}
+
+.ownerInfo {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.ownerInfo h3 {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.productList {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.productList h4 {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  color: #ffd700;
+}
+
+.productUl {
+  list-style: none;
+  padding-left: 0;
+}
+
+.productItem {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #adadad;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.loadProductsButton {
+  background-color: #ffd700;
+  color: black;
+}
+.viewProduct {
+  background-color: #007bff;
+  color: #fff;
+  padding: 4px 8px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.viewProduct:hover {
+  background-color: #0056b3;
+}
+
+.ownerActions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.editButton {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.editButton:hover {
+  background-color: #45a049;
+}
+
+.deleteButton {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.deleteButton:hover {
+  background-color: #e53935;
+}
+.statusButtons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.approveButton {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.rejectButton {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.rejectButton:hover {
+  background-color: darkred;
+}

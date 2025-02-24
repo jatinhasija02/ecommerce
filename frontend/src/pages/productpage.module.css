@@ -1,0 +1,132 @@
+.productPage {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.backButton {
+  background-color: #bfa000;
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+  background-color: #e0e0e0;
+}
+
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.imageSection {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.productImage {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.noImage {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bfa000;
+  color: #888;
+  border-radius: 8px;
+}
+
+.detailsSection {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.productName {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.productDescription {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.productPrice {
+  font-size: 1.5em;
+  color: #e81c23;
+  margin-bottom: 15px;
+}
+
+.productStock,
+.productCategory,
+.sizes,
+.colors {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.actionButtons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.buyButton,
+.addToCartButton {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.buyButton {
+  background-color: #e81c23;
+  color: #fff;
+}
+
+.buyButton:hover {
+  background-color: #c21807;
+}
+
+.addToCartButton {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.addToCartButton:hover {
+  background-color: #388e3c;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 50px;
+}
