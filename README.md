@@ -38,38 +38,28 @@ To run this project locally, follow these steps:
 2. Install dependencies for the backend:
 
    ```bash
-   cd backend
+   cd backend/
    npm install
    ```
 
 3. Install dependencies for the frontend:
 
    ```bash
-   cd ../frontend
+   cd frontend/
    npm install
    ```
 
-4. Set up environment variables:
-
-   - Create a `.env` file in the `backend` directory with the following content:
-
-     ```env
-     PORT=5000
-     MONGODB_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret
-     ```
-
-5. Start the backend server:
+4. Start the backend server:
 
    ```bash
-   cd backend
+   cd backend/
    npm start
    ```
 
-6. Start the frontend development server:
+5. Start the frontend development server:
 
    ```bash
-   cd ../frontend
+   cd frontend/
    npm start
    ```
 
