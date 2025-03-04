@@ -2,16 +2,16 @@ import React, { Fragment } from "react";
 import { Navigate } from "react-router-dom";
 
 const ProductOwnerPrivate = ({ children }) => {
-  // Retrieve product owner ID from sessionStorage (set during login)
-  const productOwnerID = (
-    sessionStorage.getItem("productOwnerId") || ""
-  ).trim();
-  console.log("ProductOwnerPrivate: productOwnerId =", productOwnerID);
+  const productOwnerID = sessionStorage.getItem("productOwnerId")?.trim() || "";
 
-  // If a productOwnerId is present, render the children. Otherwise, redirect.
-  return (
-    <Fragment>{productOwnerID ? children : <Navigate to="/login" />}</Fragment>
-  );
+  if (!productOwnerID) {
+    console.warn(
+      "ProductOwnerPrivate: No product owner ID found, redirecting..."
+    );
+    return <Navigate to="/login" />;
+  }
+
+  return <>{children}</>;
 };
 
 export default ProductOwnerPrivate;

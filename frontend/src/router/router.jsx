@@ -22,6 +22,7 @@ import OrdersPage from "../pages/OrdersPage";
 import PaymentPage from "../pages/PaymentPage";
 import ManageOrders from "../pages/ManageOrder";
 import EditOwner from "../pages/EditOwner";
+import PrivateRoute from "./PrivateRoute";
 export let myRoutes = createBrowserRouter([
   {
     path: "/",
@@ -48,13 +49,12 @@ export let myRoutes = createBrowserRouter([
         // Product details page
         path: "/products/:id",
         element: (
-          <AdminDashboard>
-            <UserPrivate>
-              <ProductPage />
-            </UserPrivate>
-          </AdminDashboard>
+          <PrivateRoute>
+            <ProductPage />,
+          </PrivateRoute>
         ),
       },
+      ,
       {
         path: "/payment/:id",
         element: (
@@ -100,21 +100,17 @@ export let myRoutes = createBrowserRouter([
       {
         path: "/updateproduct/:id",
         element: (
-          <AdminDashboard>
-            <ProductOwnerPrivate>
-              <UpdateProduct />
-            </ProductOwnerPrivate>
-          </AdminDashboard>
+          <PrivateRoute>
+            <UpdateProduct />
+          </PrivateRoute>
         ),
       },
       {
         path: "/manageorders",
         element: (
-          <AdminDashboard>
-            <ProductOwnerPrivate>
-              <ManageOrders />
-            </ProductOwnerPrivate>
-          </AdminDashboard>
+          <PrivateRoute>
+            <ManageOrders />
+          </PrivateRoute>
         ),
       },
       {

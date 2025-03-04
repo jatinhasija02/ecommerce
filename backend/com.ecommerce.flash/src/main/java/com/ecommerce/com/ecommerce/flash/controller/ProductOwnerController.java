@@ -15,7 +15,7 @@ import com.ecommerce.com.ecommerce.flash.repository.ProductRepository;
 
 import jakarta.validation.Valid;
 
-@CrossOrigin(origins = "http://localhost:5174", allowCredentials = "true")
+@CrossOrigin(origins = {"http://localhost:5174","http://localhost:5173"}, allowCredentials = "true")
 @RestController
 @RequestMapping("/product-owners")
 public class ProductOwnerController {
