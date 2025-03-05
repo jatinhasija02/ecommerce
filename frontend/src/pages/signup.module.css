@@ -23,6 +23,7 @@
 .inputGroup {
   margin-bottom: 15px;
   text-align: left;
+  color: whitesmoke;
 }
 
 .inputGroup label {
@@ -54,6 +55,7 @@
 
 .checkboxGroup {
   display: flex;
+  color: whitesmoke;
   align-items: center;
   margin-bottom: 15px;
 }

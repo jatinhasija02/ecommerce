@@ -24,6 +24,7 @@
   margin-bottom: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out;
+  width: 50%;
 }
 
 .ownerCard:hover {
@@ -69,6 +70,20 @@
 .loadProductsButton {
   background-color: #ffd700;
   color: black;
+}
+.editOwnerButton {
+  background-color: whitesmoke;
+  color: black;
+}
+.loadProductsButton,
+.editOwnerButton {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 2px;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 .viewProduct {
   background-color: #007bff;
@@ -122,6 +137,17 @@
   margin-top: 10px;
 }
 
+.approveButton,
+.rejectButton {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  margin: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 .approveButton {
   background-color: green;
   color: white;

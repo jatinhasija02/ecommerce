@@ -114,9 +114,18 @@ const ProductList = () => {
                   {prod.approved ? "APPROVED" : "PENDING"}
                 </td>
                 <td>
-                  <button onClick={() => handleUpdate(prod.id)}>Update</button>
-                  <button onClick={() => handleDelete(prod.id)}>Delete</button>
-                  {/* ❌ Removed Approve Button */}
+                  <button
+                    className={styles.btnUpdate}
+                    onClick={() => handleUpdate(prod.id)}
+                  >
+                    Update
+                  </button>
+                  <button
+                    className={styles.btnDelete}
+                    onClick={() => handleDelete(prod.id)}
+                  >
+                    Delete
+                  </button>
                 </td>
               </tr>
             ))}

@@ -37,9 +37,9 @@ const Footer = () => {
 
       <div className={styles.copyright}>
         © 2025 Copyright:
-        <a href="https://mdbootstrap.com/" className={styles.link}>
+        <a href="https://github.com/jatinhasija02/" className={styles.link}>
           {" "}
-          MDBootstrap.com
+          @JatinHasija
         </a>
       </div>
     </footer>

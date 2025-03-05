@@ -23,10 +23,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid black;
+  background-color: #bfa000;
   padding: 20px;
   border-radius: 8px;
-  background-color: #fff;
 }
 
 .imageSection {
@@ -68,10 +68,12 @@
 
 .productName {
   font-size: 2em;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
 .productDescription {
+  font-weight: bold;
   font-size: 1.2em;
   margin-bottom: 15px;
 }
@@ -88,6 +90,7 @@
 .colors {
   font-size: 1em;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .actionButtons {
